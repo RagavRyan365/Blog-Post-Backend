@@ -4,6 +4,6 @@ This plateform can also used for business and job seeking purposes. Business own
 User can send requiest to other user to make friends, posts are suggest to users based on there interests.
 They can customize their profile by adding Profile Pictures.
 
-Backend language : JavaScript(Nodejs + Expressjs)
-DataBase : PostgreSQL
-Authentication : JWT and OAuth
+Backend language : JavaScript(Nodejs + Expressjs)  
+DataBase : PostgreSQL  
+Authentication : JWT and OAuth  
