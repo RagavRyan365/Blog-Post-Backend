@@ -1,0 +1,26 @@
+{
+  "name": "blog-post-backend",
+  "version": "1.0.0",
+  "description": "To Provide a versatile environment for sharing post with file formate like Image and Video. This plateform can also used for business and job seeking purposes. Business owners can show case their product to other usrs. User can send requiest to other user to make friends, posts are suggest to users based on there interests. They can customize their profile by adding Profile Pictures.",
+  "homepage": "https://github.com/RagavRyan365/Blog-Post-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/RagavRyan365/Blog-Post-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RagavRyan365/Blog-Post-Backend.git"
+  },
+  "license": "ISC",
+  "author": "RagavRyan365",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
