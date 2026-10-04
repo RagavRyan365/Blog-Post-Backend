@@ -11,7 +11,7 @@ async function checkUser(req,res,next){
     const user = await DB.query("SELECT username FROM users WHERE username = $1 OR email = $2",[username,email]);
     //if the any user already exist rowCount will have non zero number
     if(user.rowCount != 0){
-        return res.status(401).json({"ok":false,"message":"Username Or Email is Already exist"});
+        return res.status(401).json({"code":"UserAlreadyThere","message":"Username Or Email is Already exist"});
     }
     next();
 }
